@@ -1,0 +1,36 @@
+#main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#screen{
+  background-image: url('../img/main.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 90%;
+  height: 100%;
+}
+
+#gamescreen{
+  width: 60%;
+  height: 100vh;
+}
+
+#head{
+  background-image: url('../img/designsources/character/head/head1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#headpic{
+  display : block ;
+  margin-left:auto ;
+  margin-right: auto;
+}
+p{
+
+  font-size: 15px;
+}
