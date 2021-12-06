@@ -1,36 +1,44 @@
-#main{
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  text-align: center;
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-#screen{
-  background-image: url('../img/main.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 90%;
-  height: 100%;
+#screen {
+    background-image: url('../img/main.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 90%;
+    height: 100%;
+    display: none;
 }
 
-#gamescreen{
-  width: 60%;
-  height: 100vh;
+#gamescreen {
+    width: 60%;
+    height: 100vh;
 }
 
-#head{
-  background-image: url('../img/designsources/character/head/head1.png');
-  background-repeat: no-repeat;
-  background-size: contain;
+#head {
+    background-image: url('../img/designsources/character/head/head1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-#headpic{
-  display : block ;
-  margin-left:auto ;
-  margin-right: auto;
-}
-p{
 
-  font-size: 15px;
+#headpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 15px;
+}
+
+#setbutton {
+    position: fixed;
+    bottom: 0;
+    width: 73%;
 }

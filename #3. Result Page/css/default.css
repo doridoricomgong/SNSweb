@@ -2,19 +2,18 @@ HTML {
     height: 100%;
 }
 
-body{
-  background-image: url('../img/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 100%;
-  color:white;
+body {
+    background-image: url('../img/webstartpage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 110%;
+    color: white;
 }
 
-*{
-
-  font-family: 'DungGeunMo';
-     src: local("DungGeunMo"),local("Dung-Geun-Mo"), url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.ttf') ;
-     font-weight: normal;
-     font-style: normal;
+* {
+    font-family: 'DungGeunMo';
+    src: local("DungGeunMo"), local("Dung-Geun-Mo"), url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.ttf');
+    font-weight: normal;
+    font-style: normal;
 }

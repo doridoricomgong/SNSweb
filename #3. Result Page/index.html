@@ -23,49 +23,18 @@
 </head>
 
 <body>
+  <div id="setbutton" class="h-50 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto my-10">
+    <button type="button" id="startnow" class=" btn mx-auto mt-5 py-5 px-2 mt-3" style="float:right" onclick="js:begin()">시작하기</button>
+  </div>
     <div id="screen" class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto" >
       <div id="gamescreen" class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto my-10">
-        <section id="main" class="mx-auto my-3 py-3 px-3" >
-
-          <button type="button" class="btn mt-3" onclick="js:begin()">시작하기</button>
-
-          <div id="start" class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto my-3 w-75" >
-
-            <div class="container m-auto w-100 h-100">
-              <div class="character d-inline-flex flex-row justify-content-center">
-                <div class="left_btn row" width="30px">
-                  <img src="./img/designsources/character/left.png" width="30px" height="30px" onclick="changehead_l();">
-                  <img src="./img/designsources/character/left.png" width="30px" height="30px" onclick="changeeye_l();">
-                  <img src="./img/designsources/character/left.png" width="30px" height="30px" onclick="changeclothes_l();">
-                </div>
-                <div class="character row">
-                  <div class="relative">
-                    <img id="head_img" src="./img/designsources/character/head/head1.png" value="1">
-                    <img id="eye_img" src="./img/designsources/character/eye/eye1.png" value="1">
-                    <img id="clothes_img" src="./img/designsources/character/clothes/clothes1.png" value="1">
-                  </div>
-                </div>
-                <div class="right_btn row" width="30px">
-                  <img src="./img/designsources/character/right.png" width="30px" height="30px" onclick="changehead_r();">
-                  <img src="./img/designsources/character/right.png" width="30px" height="30px" onclick="changeeye_r();">
-                  <img src="./img/designsources/character/right.png" width="30px" height="30px" onclick="changeclothes_r();">
-                </div>
-              </div>
-
-            </div>
-
-
-
-          </div>
-
+        <section id="main" class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto my-10" >
         </section>
         <section id="qna">
           <div id="qna_box">
             <div id="top">
               <img id="picture" src="./img/designsources/age/age0.png" value="0">
             </div>
-
-
             <div class="jojak d-flex justify-content-around">
               <div class="plus">
                 <img src="./img/designsources/minus.png" onclick="lchangeimg();">
@@ -86,17 +55,15 @@
             </div>
           </div>
         </section>
-        <section id="result" class="mx-auto mt-5 py-5 px-3">
-          <div class="resultname">
+        <section id="result" class="mx-auto mt-5 py-5 px-2">
+          <div class="resultname" style="overflow-y: scroll; width:700px; height:430px;">
 
           </div>
-          <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-
-          </div>
+          
           <div class="resultDesc">
 
           </div>
-          <button type="button" class="kakao mt-3 py-2 px-3" onclick="js:setShare()">공유하기</button>
+          
         </section>
         <script src="./js/data.js" charset="utf-8"></script>
         <script src="./js/start.js" charset="utf-8"></script>
