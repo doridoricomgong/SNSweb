@@ -2,7 +2,7 @@ const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 const gamescreen = document.querySelector("#screen");
-const startbutton = document.querySelector("#startnow");
+const startbutton = document.querySelector("#setbutton");
 
 const endPoint = 11;
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
